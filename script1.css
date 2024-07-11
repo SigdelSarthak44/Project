@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 5px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    width: 55%;
+    font-size: 27px;
+    list-style: none;
+    justify-items: center;
+    right: 5px;
+}
+
+.menu li , menu a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    padding: 15px;
+    padding-top: 3px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(b3.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section h1 {
+    color: steelblue;
+    position: absolute;
+    font-size: 40px;
+    top: 30%;
+    left: 10%;
+}
+
+.section h2 {
+    font-size: 32px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.section-headertext {
+    font-size: 19px;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 50%;
+    color: grey;
+    line-height: 15px;
+    letter-spacing: 3px;
+}
+
+.section a {
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    color: steelblue;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.section1 {
+    height: 80vh;
+    display: flex;
+    padding: 5% 5%;
+    background-color: red;
+}
+
+.about_images {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_images img {
+    width: 40%;
+    box-shadow: -10px 10px 25px gray;
+}
+
+.about {
+    width: 50%;
+    color: white;
+}
+
+.about p {
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.about h1 {
+    line-height: 64px;
+}
+
+.about h1 span {
+    font-size: 25px;
+    color: steelblue;
+}
+
+.about a {
+    font: 20px;
+    color: steelblue;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 50px;
+}
+
+.section2 span {
+    color: steelblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.collection {
+    display: flex;
+    padding: 5% 0;
+    gap: 5%;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px;
+}
+
+.content a {
+    color: steelblue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 30px;
+}
+
+.section2 {
+    background-color: yellow;
+    padding: 5%;
+}
+
+.image {
+    width: 40%;
+    box-shadow: -10px 10px 25px gray;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection_images {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.collection_images img {
+    box-shadow: -10px 10px 25px gray;
+    width: 100%;
+    height: 100%;
+}
+
+.image2 {
+    width: 40%;
+}
+
+.content {
+    width: 60%;
+}
+
+.section3 {
+    display: flex;
+}
+
+.left {
+    background-color: steelblue;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left h1 {
+    color: white;
+    font-size: 48px;
+    /* line-height: px; */
+    font-weight: 400;
+}
+
+.left h2 {
+    color: palevioletred;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.section4 span {
+    color: steelblue;
+    font-size: 25px;
+}
+
+.section4 {
+    padding: 45px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.section4 h1 {
+    line-height: 80px;
+    font-weight: 400;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: auto;
+    gap: 3%;
+}
+
+.service {
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+}
+
+.sevice p {
+    color: grey;
+    line-height: 15px;
+    letter-spacing: 2px;
+    font-size: 10px;
+
+}
+
+.service h3 {
+    line-height: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.section5 {
+    height: 70vh;
+    background-image: url(b6.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    padding: 65px;
+}
+
+.section5 h1 {
+    font-weight: 400;
+    line-height: 80px;
+    text-align: right;
+}
+
+.section5 span {
+    color: steelblue;
+    font-size: 24px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.client {
+    background-color: rgb(245, 245, 245, 50%);
+    text-align: center;
+    width: 48%;
+    /* opacity: 50%; */
+    position: relative;
+    padding: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.client h3 {
+    margin-top: 25px;
+}
+
+.client img {
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    height: 100px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.icons {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    gap: 20%;
+    color: grey;
+}
