@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    scroll-behavior: bold;
+    scroll-behavior: smooth;
+
 }
 
 .header {
