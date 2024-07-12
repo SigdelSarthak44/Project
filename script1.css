@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: bold;
 }
 
 .header {
@@ -31,10 +32,6 @@
     padding-top: 3px;
     font-variant: small-caps;
     font-weight: bold;
-    font
-}
-.menu a:hover{
-    text-decoration: underline;
 }
 
 .section {
